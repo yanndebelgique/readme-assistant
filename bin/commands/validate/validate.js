@@ -26,7 +26,7 @@ const validate = async () => {
   if(issues.length === 0){
     process.stdout.write('No issues. Good to go!\n')
   } else {
-    process.stderr.write(create_readable_message(issues))
+    exit_on_error(create_readable_message(issues))
   }
 }
 
