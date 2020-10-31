@@ -1,6 +1,6 @@
 {
   "name": "readme-assistant",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "generate and validate readmes",
   "main": "bin/index.js",
   "scripts": {
