@@ -4,7 +4,7 @@ const car = ([elem]) => elem
 const cdr = ([,elem]) => elem
 
 const prepend = pre => str => `${pre} ${str}`
-const append = app => str => `${str} ${app}`
+const append = app => str => `${sr} ${app}`
 
 const is_file = R.compose(R.equals('file'),car)
 const is_dir = R.compose(R.equals('dir'),car)
