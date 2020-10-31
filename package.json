@@ -1,0 +1,22 @@
+{
+  "name": "generate_readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "prompt": "^1.0.0",
+    "ramda": "^0.27.1"
+  },
+  "engines": {
+    "node" : "v12.12.0"
+  },
+  "bin": {
+    "readme-assistant": "./bin/index.js"
+  }
+}
