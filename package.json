@@ -1,12 +1,17 @@
 {
-  "name": "generate_readme",
+  "name": "readme-assistant",
   "version": "1.0.0",
-  "description": "",
+  "description": "generate and validate readmes",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanndebelgique/readme-assistant.git"
+  },
+  "homepage": "https://github.com/yanndebelgique/readme-assistant#readme",
+  "author": "Yann Buydens",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^7.3.3",
