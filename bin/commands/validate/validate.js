@@ -1,4 +1,5 @@
 const R = require('ramda')
+const { exit_on_error } = require('../../lib/exit_on_error')
 const { readFile } = require('fs')
 const { get_git_ls_files_output } = require('../../lib/git_ls_files/get_git_ls_files_output')
 const { create_readable_message, issues_with_readme } = require('./issues_with_readme')

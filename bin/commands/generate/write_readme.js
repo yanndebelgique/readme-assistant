@@ -1,3 +1,4 @@
+const { exit_on_error } = require('../../lib/exit_on_error')
 const { promisify } = require('../../lib')
 
 const { writeFile, existsSync } = require('fs')

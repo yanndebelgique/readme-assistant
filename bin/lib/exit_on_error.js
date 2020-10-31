@@ -7,3 +7,7 @@ const exit_on_error = (error_message) => {
   const ERROR_CODE = 1
   process.exit(ERROR_CODE); // 1 = failure (see https://stackoverflow.com/questions/5266152/how-to-exit-in-node-js)
 }
+
+module.exports = {
+  exit_on_error
+}
