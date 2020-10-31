@@ -24,7 +24,7 @@ const validate = async () => {
     elements_in_readme: readme_elements.map(([type, {name}]) => ([type, name]))
   })
   if(issues.length === 0){
-    process.stdout.write('No issues. Good to go!')
+    process.stdout.write('No issues. Good to go!\n')
   } else {
     process.stderr.write(create_readable_message(issues))
   }

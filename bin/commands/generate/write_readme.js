@@ -10,12 +10,12 @@ const { writeFile, existsSync } = require('fs')
 const write_readme = async ({ readme, location }) => {
   const new_readme_path = location + '/README.g.md'
   if(existsSync(new_readme_path)){
-    process.stderr.write('No can do. sorry file already exists. You should update it instead')
+    process.stderr.write('No can do. sorry file already exists. You should update it instead\n')
     return
   }
   const pWriteFile = await promisify(writeFile)
   await pWriteFile(new_readme_path, readme)
-  process.stdout.write(`done. README.g.md created in ${new_readme_path}`)
+  process.stdout.write(`done. README.g.md created in ${new_readme_path}\n`)
 }
 
 

@@ -19,7 +19,7 @@
     "ramda": "^0.27.1"
   },
   "engines": {
-    "node" : "v12.12.0"
+    "node": "v12.12.0"
   },
   "bin": {
     "readme-assistant": "./bin/index.js"
